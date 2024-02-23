@@ -1,11 +1,11 @@
 <script setup>
-import Landing from './components/Landing.vue'
+import MainCard from './components/MainCard.vue'
 </script>
 
 <template>
   <header>
     <div >
-      <Landing />
+      <MainCard />
     </div>
   </header>
 
