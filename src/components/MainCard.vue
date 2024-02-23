@@ -154,18 +154,16 @@
       <div class="buttonContainer">
         <h1>Also see</h1>
         <div class="buttonSub">
-
-        
-        <div class="button">
-          <a href="">
-            <h2>My Proyects</h2>
-          </a>
-        </div>
-        <div class="button">
-          <a href="">
-            <h2>My Resumé</h2>
-          </a>
-        </div>
+          <div class="button">
+            <a href="">
+              <h2>My Proyects</h2>
+            </a>
+          </div>
+          <div class="button">
+            <a href="">
+              <h2>My Resumé</h2>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -181,7 +179,7 @@
 }
 .main-container {
   display: flex;
-  background-color: black;
+  background-color: rgb(38, 21, 83);
   margin: 5%;
   border-radius: 20px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
@@ -191,13 +189,13 @@
 }
 .container1 {
   background-color: #e8ebf8;
-  width: 25%;
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+  padding: 1rem;
   flex-direction: column;
-  margin: 5px 0 5px 5px;
+  margin: 15px 0 15px 15px;
   border-radius: 20px;
 }
 .container1 a {
@@ -208,13 +206,13 @@
   display: flex;
   background-color: #b2bff7;
   color: rgb(0, 0, 0);
-  width: 75%;
+  width: 65%;
   flex-direction: column;
   align-items: center;
-  padding: 3rem;
+  padding: 1rem;
   justify-content: space-evenly;
   border-radius: 20px;
-  margin: 5px;
+  margin: 3rem;
 }
 
 .container2 a {
@@ -231,15 +229,18 @@
   align-items: center;
   flex-direction: column;
   text-align: left;
+margin-left: 2rem;
+margin-right: 2rem;
 }
 
-.about p{
+.about p {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #d3d9f5;
   border-radius: 20px;
   padding: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .buttonContainer {
@@ -248,7 +249,7 @@
   align-items: center;
 }
 
-.buttonSub{
+.buttonSub {
   display: flex;
   flex-direction: row;
 }
@@ -260,10 +261,6 @@
   background-color: #d3d9f5;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
-
-/* .about p{
-  display: flex;
-} */
 
 .techContainer {
   display: flex;
@@ -277,5 +274,6 @@
   background-color: #d3d9f5;
   border-radius: 20px;
   padding: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 </style>
