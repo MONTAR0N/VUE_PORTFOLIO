@@ -2,51 +2,45 @@
   <div class="main-container">
     <div class="container1">
       <div class="profile">
-        <img src="../assets/perfil.peg.jpeg" alt="" width="200px" />
-        <h3>Vicente Avilés</h3>
-        <p>Software Developer</p>
+        <img src="../assets/foto yo.PNG" alt="" width="200px" />
+        <h2>Vicente Avilés</h2>
+        <h3>Software Developer</h3>
       </div>
       <div class="social-links">
-        <div class="link-div">
-          <a href="https://github.com/MONTAR0N">
-            <img
-              src="../components/icons/icons8-github-50.png"
-              alt=""
-              class="logo-img"
-            />
-            <h3>Github</h3>
-          </a>
-        </div>
-        <div class="link-div">
-          <a href="https://www.linkedin.com/in/vicente-avil%C3%A9s-93a63b171/">
-            <img
-              src="../components/icons/icons8-linkedin-50.png"
-              alt=""
-              class="logo-img"
-            />
-            <h3>LinkedIn</h3>
-          </a>
-        </div>
-        <div class="link-div">
-          <a href="mailto:vavilesb1@gmail.com">
-            <img
-              src="../components/icons/icons8-mail-50 (1).png"
-              alt=""
-              class="logo-img"
-            />
-            <h3>Gmail</h3>
-          </a>
-        </div>
-        <div class="link-div">
-          <a href="https://wa.me/56977556547">
-            <img
-              src="../components/icons/icons8-whatsapp-50.png"
-              alt=""
-              class="logo-img"
-            />
-            <h3>WhatsApp</h3>
-          </a>
-        </div>
+        <a href="https://github.com/MONTAR0N">
+          <img
+            src="../components/icons/icons8-github-50.png"
+            alt=""
+            class="logo-img"
+          />
+          <h3>Github</h3>
+        </a>
+
+        <a href="https://www.linkedin.com/in/vicente-avil%C3%A9s-93a63b171/">
+          <img
+            src="../components/icons/icons8-linkedin-50.png"
+            alt=""
+            class="logo-img"
+          />
+          <h3>LinkedIn</h3>
+        </a>
+
+        <a href="mailto:vavilesb1@gmail.com">
+          <img
+            src="../components/icons/icons8-mail-50 (1).png"
+            alt=""
+            class="logo-img"
+          />
+          <h3>Gmail</h3>
+        </a>
+        <a href="https://wa.me/56977556547">
+          <img
+            src="../components/icons/icons8-whatsapp-50.png"
+            alt=""
+            class="logo-img"
+          />
+          <h3>WhatsApp</h3>
+        </a>
       </div>
     </div>
 
@@ -54,10 +48,8 @@
       <div class="about">
         <h1>About me</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-          omnis delectus blanditiis reiciendis error veritatis suscipit
-          consequatur eius autem aut necessitatibus corporis velit, facilis enim
-          obcaecati. Voluptatem accusamus totam corporis.
+My professional journey began in the legal field, where I gained a deep understanding of strategic litigation management and the legal world in general. Additionally, I have significantly developed my soft skills. However, my passion for technology led me to embark on an exciting career as a Full Stack developer.
+The fusion of my legal knowledge with development equips me to tackle business challenges from a unique perspective. With a humanistic approach and the ability to design effective technological solutions that drive business success.
         </p>
       </div>
       <div class="techContainer">
@@ -182,7 +174,7 @@
   background-color: rgb(38, 21, 83);
   margin: 5%;
   border-radius: 20px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); */
 
   /* flex-direction: column; */
   /* align-items: center; */
@@ -193,7 +185,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 20px 10px 20px 10px;
   flex-direction: column;
   margin: 15px 0 15px 15px;
   border-radius: 20px;
@@ -204,43 +196,61 @@
 }
 .container2 {
   display: flex;
-  background-color: #b2bff7;
+  background-color: #bec7f8;
   color: rgb(0, 0, 0);
-  width: 65%;
+  width: 75%;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
-  justify-content: space-evenly;
+  padding: 20px 10px 20px 10px;
+  justify-content: space-around;
   border-radius: 20px;
-  margin: 3rem;
+  margin: 1rem;
 }
 
 .container2 a {
   text-decoration: none;
   color: inherit;
 }
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .profile img {
-  width: 6rem;
-  border-radius: 10px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  width: 8rem;
+  border-radius: 50%;
+  /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); */
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-links a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .about {
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: left;
-margin-left: 2rem;
-margin-right: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .about p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #d3d9f5;
-  border-radius: 20px;
+  /* background-color: #d3d9f5; */
+  /* border-radius: 20px; */
   padding: 10px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); */
 }
 
 .buttonContainer {
@@ -252,6 +262,7 @@ margin-right: 2rem;
 .buttonSub {
   display: flex;
   flex-direction: row;
+  color: black;
 }
 .button {
   border-radius: 20px;
@@ -271,9 +282,9 @@ margin-right: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #d3d9f5;
-  border-radius: 20px;
+  /* background-color: #d3d9f5; */
+  /* border-radius: 20px; */
   padding: 5px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); */
 }
 </style>
