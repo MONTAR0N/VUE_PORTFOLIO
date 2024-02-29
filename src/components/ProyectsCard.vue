@@ -51,7 +51,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  color: aliceblue;
+  /* color: aliceblue; */
   /* border: solid black 1px; */
 }
 
@@ -66,7 +66,7 @@ export default {
   max-height: 250px;
   overflow: hidden;
   box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
-  background-color: black;
+  background-color: #c5ccf5;
 }
 
 .projectContainer img {
@@ -76,9 +76,9 @@ export default {
 }
 
 .projectContainer.expanded {
-  max-height: none; /* Quitamos la restricción de altura cuando la tarjeta está expandida */
+  max-height: none; 
   max-width: none;
-  overflow: auto; /* Agregamos desplazamiento si la tarjeta está expandida */
+  overflow: auto; 
 }
 
 .projectContainer p {

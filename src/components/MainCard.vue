@@ -214,7 +214,7 @@ The fusion of my legal knowledge with development equips me to tackle business c
   justify-content: space-around;
   border-radius: 20px;
   margin: 2rem;
-  box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.3);
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
 
 }
 
