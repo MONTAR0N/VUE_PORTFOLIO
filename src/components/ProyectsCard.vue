@@ -77,8 +77,17 @@ export default {
 
 .projectContainer.expanded {
   max-height: none; 
-  max-width: none;
+  /* max-width: none; */
   overflow: auto; 
+}
+
+.projectContainer button {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 5px;
+  background-color: #E8EBF8;
+
 }
 
 .projectContainer p {
