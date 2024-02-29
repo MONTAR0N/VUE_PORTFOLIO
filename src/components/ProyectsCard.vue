@@ -51,23 +51,28 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: solid black 1px;
+  color: aliceblue;
+  /* border: solid black 1px; */
 }
 
 .projectContainer {
   margin: 10px;
-  border: solid black 1px;
+  border-radius: 20px;
+  /* border: solid black 1px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 300px;
   max-height: 250px;
   overflow: hidden;
+  box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
+  background-color: black;
 }
 
 .projectContainer img {
   height: auto;
   width: 15rem;
+  border-radius: 10px;
 }
 
 .projectContainer.expanded {

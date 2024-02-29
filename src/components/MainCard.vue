@@ -1,4 +1,5 @@
 <template>
+  <div class="wrapper">
   <div class="main-container">
     <div class="container1">
       <div class="profile">
@@ -160,6 +161,7 @@ The fusion of my legal knowledge with development equips me to tackle business c
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script setup></script>
@@ -169,12 +171,17 @@ The fusion of my legal knowledge with development equips me to tackle business c
   height: auto;
   width: 40px;
 }
+.wrapper{
+  display: flex;
+  justify-content: center;
+}
 .main-container {
   display: flex;
   background-color: rgb(38, 21, 83);
   margin: 5%;
   border-radius: 20px;
-  /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); */
+  width: 75%;
+  /* box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3); */
 
   /* flex-direction: column; */
   /* align-items: center; */
@@ -189,6 +196,8 @@ The fusion of my legal knowledge with development equips me to tackle business c
   flex-direction: column;
   margin: 15px 0 15px 15px;
   border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
+
 }
 .container1 a {
   text-decoration: none;
@@ -204,7 +213,9 @@ The fusion of my legal knowledge with development equips me to tackle business c
   padding: 20px 10px 20px 10px;
   justify-content: space-around;
   border-radius: 20px;
-  margin: 1rem;
+  margin: 2rem;
+  box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.3);
+
 }
 
 .container2 a {
@@ -286,5 +297,11 @@ The fusion of my legal knowledge with development equips me to tackle business c
   /* border-radius: 20px; */
   padding: 5px;
   /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); */
+}
+
+@media only screen and (max-width: 900px) {
+  .main-container{
+    width: 95%;
+  }
 }
 </style>
