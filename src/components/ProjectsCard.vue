@@ -49,7 +49,8 @@ export default {
 <style scoped>
 #projects-section {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
   justify-content: center;
   /* color: aliceblue; */
   /* border: solid black 1px; */

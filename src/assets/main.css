@@ -17,15 +17,15 @@ a,
   border-radius: 20px;
 }
 
-@media (hover: hover) {
+/* @media (hover: hover) {
   a:hover {
     background-color: hsla(197, 86%, 33%, 0.2);
   }
-}
+} */
 
 /* @media (min-width: 1024px) {*/
   body {
-    background-color: #261553;
+    background-color: rgb(17, 5, 49);
   } 
 
   /* #app {

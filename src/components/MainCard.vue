@@ -8,7 +8,7 @@
           <h3>Software Developer</h3>
         </div>
         <div class="social-links">
-          <a href="https://github.com/MONTAR0N">
+          <a href="https://github.com/MONTAR0N" target="_blank">
             <img
               src="../components/icons/icons8-github-50.png"
               alt=""
@@ -17,7 +17,7 @@
             <h3>Github</h3>
           </a>
 
-          <a href="https://www.linkedin.com/in/vicente-avil%C3%A9s-93a63b171/">
+          <a href="https://www.linkedin.com/in/vicente-avil%C3%A9s-93a63b171/" target="_blank">
             <img
               src="../components/icons/icons8-linkedin-50.png"
               alt=""
@@ -26,7 +26,7 @@
             <h3>LinkedIn</h3>
           </a>
 
-          <a href="#" onclick=openMailClient()>
+          <a href="mailto:vavilesb1@gmail.com" target="_blank" rel="noopener noreferrer" role="link">
             <img
               src="../components/icons/icons8-mail-50 (1).png"
               alt=""
@@ -34,7 +34,7 @@
             />
             <h3>Gmail</h3>
           </a>
-          <a href="https://wa.me/56977556547">
+          <a href="https://wa.me/56977556547" target="_blank">
             <img
               src="../components/icons/icons8-whatsapp-50.png"
               alt=""
@@ -161,7 +161,7 @@
             </div>
             <div class="button">
               <a href=".projectContainer .main-card-section">
-                <h2>My Resumé</h2>
+                <h2>My Resume</h2>
               </a>
             </div>
           </div>
@@ -200,7 +200,7 @@ function openMailClient() {
 }
 .main-container {
   display: flex;
-  background-color: rgb(38, 21, 83);
+  background-color: rgb(17, 5, 49);
   margin: 5%;
   border-radius: 20px;
   width: 75%;
@@ -319,6 +319,16 @@ function openMailClient() {
   padding: 5px;
   /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); */
 }
+
+.technology-section  img{
+  filter: none;
+  transition: filter .5s, scale .5s;
+  &:hover{
+    /* filter: grayscale(); */
+    scale: 1.5;
+  }
+}
+
 
 @media only screen and (max-width: 900px) {
   .main-container {
