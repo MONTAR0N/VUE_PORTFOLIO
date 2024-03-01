@@ -1,5 +1,5 @@
 <template>
-  <div class="mainContainer">
+  <div id="projects-section" >
     <div
       class="projectContainer"
       v-for="(project, index) in projectData.projectsArray"
@@ -47,7 +47,7 @@ export default {
 </script>
 
 <style scoped>
-.mainContainer {
+#projects-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -65,7 +65,7 @@ export default {
   max-width: 300px;
   max-height: 250px;
   overflow: hidden;
-  box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
   background-color: #c5ccf5;
 }
 
@@ -76,9 +76,9 @@ export default {
 }
 
 .projectContainer.expanded {
-  max-height: none; 
+  max-height: none;
   /* max-width: none; */
-  overflow: auto; 
+  overflow: auto;
 }
 
 .projectContainer button {
@@ -86,11 +86,10 @@ export default {
   border-radius: 20px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
   margin-top: 5px;
-  background-color: #E8EBF8;
-
+  background-color: #e8ebf8;
 }
 
 .projectContainer p {
-  margin: 5px;
+  margin: 0px 10px 0px 10px;
 }
 </style>

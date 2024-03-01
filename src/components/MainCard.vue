@@ -1,177 +1,200 @@
 <template>
   <div class="wrapper">
-  <div class="main-container">
-    <div class="container1">
-      <div class="profile">
-        <img src="../assets/foto yo.PNG" alt="" width="200px" />
-        <h2>Vicente Avilés</h2>
-        <h3>Software Developer</h3>
-      </div>
-      <div class="social-links">
-        <a href="https://github.com/MONTAR0N">
-          <img
-            src="../components/icons/icons8-github-50.png"
-            alt=""
-            class="logo-img"
-          />
-          <h3>Github</h3>
-        </a>
+    <div class="main-container">
+      <div class="container1">
+        <div class="profile">
+          <img src="../assets/foto yo.PNG" alt="" width="200px" />
+          <h2>Vicente Avilés</h2>
+          <h3>Software Developer</h3>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/MONTAR0N">
+            <img
+              src="../components/icons/icons8-github-50.png"
+              alt=""
+              class="logo-img"
+            />
+            <h3>Github</h3>
+          </a>
 
-        <a href="https://www.linkedin.com/in/vicente-avil%C3%A9s-93a63b171/">
-          <img
-            src="../components/icons/icons8-linkedin-50.png"
-            alt=""
-            class="logo-img"
-          />
-          <h3>LinkedIn</h3>
-        </a>
+          <a href="https://www.linkedin.com/in/vicente-avil%C3%A9s-93a63b171/">
+            <img
+              src="../components/icons/icons8-linkedin-50.png"
+              alt=""
+              class="logo-img"
+            />
+            <h3>LinkedIn</h3>
+          </a>
 
-        <a href="mailto:vavilesb1@gmail.com">
-          <img
-            src="../components/icons/icons8-mail-50 (1).png"
-            alt=""
-            class="logo-img"
-          />
-          <h3>Gmail</h3>
-        </a>
-        <a href="https://wa.me/56977556547">
-          <img
-            src="../components/icons/icons8-whatsapp-50.png"
-            alt=""
-            class="logo-img"
-          />
-          <h3>WhatsApp</h3>
-        </a>
-      </div>
-    </div>
-
-    <div class="container2">
-      <div class="about">
-        <h1>About me</h1>
-        <p>
-My professional journey began in the legal field, where I gained a deep understanding of strategic litigation management and the legal world in general. Additionally, I have significantly developed my soft skills. However, my passion for technology led me to embark on an exciting career as a Full Stack developer.
-The fusion of my legal knowledge with development equips me to tackle business challenges from a unique perspective. With a humanistic approach and the ability to design effective technological solutions that drive business success.
-        </p>
-      </div>
-      <div class="techContainer">
-        <h1>Languages and Tools</h1>
-        <div class="technology-section">
-          <p>
-            <a href="https://www.w3schools.com/css/" target="_blank">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                alt="css3"
-                width="40"
-                height="40"
-              />
-            </a>
-            <a href="https://expressjs.com" target="_blank">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-                alt="express"
-                width="40"
-                height="40"
-              />
-            </a>
-            <a href="https://es.react.dev/" target="_blank">
-              <img
-                src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
-                alt="react"
-                width="40"
-                height="40"
-              />
-            </a>
-            <a href="https://es.redux.js.org/" target="_blank">
-              <img
-                src="https://www.svgrepo.com/show/303557/redux-logo.svg"
-                alt="redux"
-                width="40"
-                height="40"
-              />
-            </a>
-            <a href="https://www.w3.org/html/" target="_blank">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                alt="html5"
-                width="40"
-                height="40"
-              />
-            </a>
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-              target="_blank"
-            >
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                alt="javascript"
-                width="40"
-                height="40"
-              />
-            </a>
-            <a href="https://nodejs.org" target="_blank">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-                alt="nodejs"
-                width="40"
-                height="40"
-              />
-            </a>
-            <a href="https://vuejs.org//" target="_blank">
-              <img
-                src="https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg"
-                alt="Vue.js"
-                width="40"
-                height="40"
-              />
-            </a>
-            <a href="https://sequelize.org/" target="_blank">
-              <img
-                src="https://www.vectorlogo.zone/logos/sequelizejs/sequelizejs-icon.svg"
-                alt="sequelize"
-                width="40"
-                height="40"
-              />
-            </a>
-            <a href="https://www.postgresql.org/" target="_blank">
-              <img
-                src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
-                alt="postgreSQL"
-                width="40"
-                height="40"
-              />
-            </a>
-          </p>
+          <a href="#" onclick=openMailClient()>
+            <img
+              src="../components/icons/icons8-mail-50 (1).png"
+              alt=""
+              class="logo-img"
+            />
+            <h3>Gmail</h3>
+          </a>
+          <a href="https://wa.me/56977556547">
+            <img
+              src="../components/icons/icons8-whatsapp-50.png"
+              alt=""
+              class="logo-img"
+            />
+            <h3>WhatsApp</h3>
+          </a>
         </div>
       </div>
 
-      <div class="buttonContainer">
-        <h1>Also see</h1>
-        <div class="buttonSub">
-          <div class="button">
-            <a href="">
-              <h2>My Proyects</h2>
-            </a>
+      <div class="container2">
+        <div class="about">
+          <h1>About me</h1>
+          <p>
+            My professional journey began in the legal field, where I gained a
+            deep understanding of strategic litigation management and the legal
+            world in general. Additionally, I have significantly developed my
+            soft skills. However, my passion for technology led me to embark on
+            an exciting career as a Full Stack developer. The fusion of my legal
+            knowledge with development equips me to tackle business challenges
+            from a unique perspective. With a humanistic approach and the
+            ability to design effective technological solutions that drive
+            business success.
+          </p>
+        </div>
+        <div class="techContainer">
+          <h1>Languages and Tools</h1>
+          <div class="technology-section">
+            <p>
+              <a href="https://www.w3schools.com/css/" target="_blank">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                  alt="css3"
+                  width="40"
+                  height="40"
+                />
+              </a>
+              <a href="https://expressjs.com" target="_blank">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+                  alt="express"
+                  width="40"
+                  height="40"
+                />
+              </a>
+              <a href="https://es.react.dev/" target="_blank">
+                <img
+                  src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
+                  alt="react"
+                  width="40"
+                  height="40"
+                />
+              </a>
+              <a href="https://es.redux.js.org/" target="_blank">
+                <img
+                  src="https://www.svgrepo.com/show/303557/redux-logo.svg"
+                  alt="redux"
+                  width="40"
+                  height="40"
+                />
+              </a>
+              <a href="https://www.w3.org/html/" target="_blank">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                  alt="html5"
+                  width="40"
+                  height="40"
+                />
+              </a>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                target="_blank"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="javascript"
+                  width="40"
+                  height="40"
+                />
+              </a>
+              <a href="https://nodejs.org" target="_blank">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                  alt="nodejs"
+                  width="40"
+                  height="40"
+                />
+              </a>
+              <a href="https://vuejs.org//" target="_blank">
+                <img
+                  src="https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg"
+                  alt="Vue.js"
+                  width="40"
+                  height="40"
+                />
+              </a>
+              <a href="https://sequelize.org/" target="_blank">
+                <img
+                  src="https://www.vectorlogo.zone/logos/sequelizejs/sequelizejs-icon.svg"
+                  alt="sequelize"
+                  width="40"
+                  height="40"
+                />
+              </a>
+              <a href="https://www.postgresql.org/" target="_blank">
+                <img
+                  src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"
+                  alt="postgreSQL"
+                  width="40"
+                  height="40"
+                />
+              </a>
+            </p>
           </div>
-          <div class="button">
-            <a href="">
-              <h2>My Resumé</h2>
-            </a>
+        </div>
+
+        <div class="buttonContainer">
+          <h1>Also see</h1>
+          <div class="buttonSub">
+            <div class="button">
+              <a href="#projects-section">
+                <h2>My Projects</h2>
+              </a>
+            </div>
+            <div class="button">
+              <a href=".projectContainer .main-card-section">
+                <h2>My Resumé</h2>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 </template>
 
-<script setup></script>
+<script>
+function openMailClient() {
+  var emailAddress = "vavilesb1@gmail.com";
+  var subject = "Asunto del correo";
+  var body = "Cuerpo del correo";
+
+  var mailtoLink =
+    "mailto:" +
+    encodeURIComponent(emailAddress) +
+    "?subject=" +
+    encodeURIComponent(subject) +
+    "&body=" +
+    encodeURIComponent(body);
+
+  window.location.href = mailtoLink;
+}
+</script>
 
 <style scoped>
 .logo-img {
   height: auto;
   width: 40px;
 }
-.wrapper{
+.wrapper {
   display: flex;
   justify-content: center;
 }
@@ -197,7 +220,6 @@ The fusion of my legal knowledge with development equips me to tackle business c
   margin: 15px 0 15px 15px;
   border-radius: 20px;
   box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
-
 }
 .container1 a {
   text-decoration: none;
@@ -213,9 +235,8 @@ The fusion of my legal knowledge with development equips me to tackle business c
   padding: 20px 10px 20px 10px;
   justify-content: space-around;
   border-radius: 20px;
-  margin: 2rem;
+  margin: 1rem;
   box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
-
 }
 
 .container2 a {
@@ -300,7 +321,7 @@ The fusion of my legal knowledge with development equips me to tackle business c
 }
 
 @media only screen and (max-width: 900px) {
-  .main-container{
+  .main-container {
     width: 95%;
   }
 }

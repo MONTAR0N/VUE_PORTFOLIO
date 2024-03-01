@@ -1,6 +1,6 @@
 <script setup>
 import MainCard from "./components/MainCard.vue";
-import ProyectsCard from "./components/ProyectsCard.vue";
+import ProjectsCard from "./components/ProjectsCard.vue";
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import ProyectsCard from "./components/ProyectsCard.vue";
   <body>
     <div>
       <MainCard />
-      <ProyectsCard />
+      <ProjectsCard />
     </div>
   </body>
 </template>
